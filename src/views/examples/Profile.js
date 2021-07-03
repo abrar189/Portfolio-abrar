@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/abrar.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,50 +108,52 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">6</span>
+                          <span className="description">Projects</span>
                         </div>
-                        <div>
-                          <span className="heading">10</span>
+                        {/* <div>
+                          {/* <span className="heading">10</span>
                           <span className="description">Photos</span>
-                        </div>
-                        <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
-                        </div>
+                        </div> */} 
+                        
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Abrar Al-Gour{" "}
+                      <span className="font-weight-light">, 24</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Irbid , Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      University of Civil Engineer
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        In general, I am a fresh graduate civil engineer, but I am now learning programming 
+                        and I know that it is a new field far from my major, but it is actually very useful 
+                        because the world focuses on modern technology and programming is one of the most important 
+                        things for technology.
+                        
                         </p>
+                        <p> Some of my Project :</p>
+                       <p> <a href="https://freelance-pro.github.io/get-job/"> Freelancer project  </a></p>
+                       <p> <a href="https://abrar189.github.io/busmall/"> BassMall project</a></p>
+                       <p> <a href="https://abrar189.github.io/cookie-stand/"> cookie-stand project</a></p>
+
                         <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
+                         
                         </a>
                       </Col>
                     </Row>
