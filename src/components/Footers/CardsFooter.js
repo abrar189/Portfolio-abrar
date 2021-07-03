@@ -31,8 +31,8 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import landing from "assets/img/theme/landing.jpg";
-import profile from "assets/img/theme/profile.jpg";
+import landing from "assets/img/theme/argon.png";
+import profile from "assets/img/theme/me.png";
 
 class CardsFooter extends React.Component {
   render() {
@@ -67,7 +67,7 @@ class CardsFooter extends React.Component {
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Thank you for supporting me!
                 </h3>
                 <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
@@ -91,7 +91,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/abrar.algour.71/"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -119,7 +119,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/abrar189"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -141,13 +141,13 @@ class CardsFooter extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Abrar Algour
                   </a>
                   .
                 </div>
               </Col>
               <Col md="6">
-                <Nav className="nav-footer justify-content-end">
+                {/* <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
@@ -180,7 +180,7 @@ class CardsFooter extends React.Component {
                       MIT License
                     </NavLink>
                   </NavItem>
-                </Nav>
+                </Nav> */}
               </Col>
             </Row>
           </Container>

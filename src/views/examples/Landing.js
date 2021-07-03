@@ -398,10 +398,10 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section pb-0 bg-gradient-warning">
-            <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-lg-2 ml-lg-auto" md="6">
+          {/* <section className="section pb-0 bg-gradient-warning"> */}
+            {/* <Container> */}
+              {/* <Row className="row-grid align-items-center"> */}
+                {/* <Col className="order-lg-2 ml-lg-auto" md="6">
                   <div className="position-relative pl-md-5">
                     <img
                       alt="..."
@@ -409,9 +409,9 @@ class Landing extends React.Component {
                       src={ill2}
                     />
                   </div>
-                </Col>
-                <Col className="order-lg-1" lg="6">
-                  <div className="d-flex px-3">
+                </Col> */}
+                {/* <Col className="order-lg-1" lg="6"> */}
+                  {/* <div className="d-flex px-3">
                     <div>
                       <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                         <i className="ni ni-building text-primary" />
@@ -425,10 +425,10 @@ class Landing extends React.Component {
                         continue whatever.
                       </p>
                     </div>
-                  </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
+                  </div> */}
+                  {/* <Card className="shadow shadow-lg--hover mt-5"> */}
+                    {/* <CardBody> */}
+                      {/* <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-satisfied" />
@@ -451,12 +451,12 @@ class Landing extends React.Component {
                             Learn more
                           </a>
                         </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
+                      </div> */}
+                    {/* </CardBody> */}
+                  {/* </Card> */}
+                  {/* <Card className="shadow shadow-lg--hover mt-5"> */}
+                    {/* <CardBody> */}
+                      {/* <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
                             <i className="ni ni-active-40" />
@@ -479,14 +479,14 @@ class Landing extends React.Component {
                             Learn more
                           </a>
                         </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
+                      </div> */}
+                    {/* </CardBody> */}
+                  {/* </Card> */}
+                {/* </Col> */}
+              {/* </Row> */}
+            {/* </Container> */}
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -500,11 +500,11 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
-          </section>
-          <section className="section section-lg">
-            <Container>
-              <Row className="justify-content-center text-center mb-lg">
+            </div> */}
+          {/* </section> */}
+          {/* <section className="section section-lg"> */}
+            {/* <Container> */}
+              {/* <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
                   <p className="lead text-muted">
@@ -513,9 +513,9 @@ class Landing extends React.Component {
                     potentially record maximum.
                   </p>
                 </Col>
-              </Row>
-              <Row>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+              </Row> */}
+              {/* <Row> */}
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -556,8 +556,8 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                </Col> */}
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -600,8 +600,8 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                </Col> */}
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -642,8 +642,8 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                </Col> */}
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -684,11 +684,11 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
-              </Row>
-            </Container>
-          </section>
-          <section className="section section-lg pt-0">
+                </Col> */}
+              {/* </Row> */}
+            {/* </Container> */}
+          {/* </section> */}
+          {/* <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -718,10 +718,10 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section>
-          <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
-              <Row className="text-center justify-content-center">
+          </section> */}
+          {/* <section className="section section-lg bg-gradient-default"> */}
+            {/* <Container className="pt-lg pb-300"> */}
+              {/* <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
                   <p className="lead text-white">
@@ -731,9 +731,9 @@ class Landing extends React.Component {
                     to low ice.
                   </p>
                 </Col>
-              </Row>
-              <Row className="row-grid mt-5">
-                <Col lg="4">
+              </Row> */}
+              {/* <Row className="row-grid mt-5"> */}
+                {/* <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-settings text-primary" />
                   </div>
@@ -742,8 +742,8 @@ class Landing extends React.Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                </Col>
-                <Col lg="4">
+                </Col> */}
+                {/* <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-ruler-pencil text-primary" />
                   </div>
@@ -752,8 +752,8 @@ class Landing extends React.Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                </Col>
-                <Col lg="4">
+                </Col> */}
+                {/* <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-atom text-primary" />
                   </div>
@@ -762,11 +762,11 @@ class Landing extends React.Component {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                </Col>
-              </Row>
-            </Container>
+                </Col> */}
+              {/* </Row> */}
+            {/* </Container> */}
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -780,9 +780,9 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
-          </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
+            </div> */}
+          {/* </section> */}
+          {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
@@ -856,7 +856,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <Download />
         </main>
         <CardsFooter />
